@@ -14,7 +14,7 @@ public class TopicoDto {
 	private LocalDateTime dataCriacao;
 	
 	public TopicoDto(Topico topico) {
-		//this.id = topico.getId();
+		this.id = topico.getId();
 		this.titulo = topico.getTitulo();
 		this.mensagem = topico.getMensagem();
 		this.dataCriacao = topico.getDataCriacao();
